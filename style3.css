@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
@@ -334,8 +334,9 @@ left: 50%;
 transform: translate(-50%, -50%);
 padding: 10px;
 border: 2px solid #ccc;
-border-color: lightgreen;
-background-color: white;
+border-color: white;
+border-radius: 14px;
+background-color: lightgrey;
 z-index: 9999;
 }
 
