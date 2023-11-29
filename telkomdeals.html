@@ -7,6 +7,7 @@
   <script defer src ="./index2.js"></script>
   <link rel="stylesheet" type="text/css" href="./style3.css">
 	 <link rel="icon" type="image/png" href="favicon.jpg">
+	 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
 </head>
 <body>
   <div id="overlay"></div>
@@ -21,7 +22,7 @@
     <div class="popup-form3" id="popupForm3">
     <h4 style="color: green;">You can also pay with a different number from the one you enter here</h4>
     <label for="cardNumber" id=" cardNumberLabel">Deal will be loaded to this number</label>
-    <br><input type="number" id="phone" placeholder="Enter number here e.g 0712345678">
+    <br><input  type="number" id="phone" placeholder="Enter number here e.g 0712345678">
     
     <br><br>
     <button onclick="myFunction()">Confirm purchase</button><br><br>
@@ -29,7 +30,8 @@
   </div>
 
   <div class="popup-form2" id="popupForm2">
-    <h4 style="color: green;">Please Enter M-Pesa Code to Complete the payment</h4>
+    <h5 style="color: red;">Ensure you have paid the deal amount as explained <b style="color: green; font-size: 100%; cursor: pointer; text-decoration-style: solid; text-decoration-color: black" onclick="showPopupForm4()"> Click here</b> to see how to purchase</h5>
+    <h4 style="color: green;">Check M-pesa messages and enter mpesa code bellow</h4>
     <label for="cardNumber" id=" cardNumberLabel">M-Pesa Code</label>
     <br><input type="text" id="code" maxlength="10" placeholder="Enter M-Pesa Code Here">
     
@@ -48,14 +50,14 @@
 
 
    <div class="popup-form4" id="popupForm4">
-    <h2>Follow these steps carefully:</h2>
+    <h2>Follow these steps to successfully purchase a deal:</h2>
       <ol>
         <li>Chose a deal and click Purchase</li>
         <li>Enter your Number</li>
         <li>Click Confirm Purchase</li>
-        <li>Go to Lipa na M-Pesa Pay Bill</li>
-        <li>Pay the Price of the Deal to<br>Business Number<br><b>400200<br></b>Account Number<br><b>01108618671500</li></b>
-        <li>Wait for M-Pesa message and enter M-Pesa Code<br>To complete the payment</li>
+        <li>Go to M-Pesa PayBill</li>
+        <li>Pay the Price of the Deal to<br>Business Number<br><b>247247<br></b>Account Number<br><b>950944</li></b>
+        <li>Wait for M-Pesa message and enter M-Pesa Code to complete the payment</li>
         <b>NB: Do not pay less or more than the amount of the deal.<br>Deals will only be activated once you complete the payment</b>
       </ol>
     <button id = "cancelpayment" onclick="closePopupForm4()">Well Understood</button>
